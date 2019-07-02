@@ -11,6 +11,7 @@ object Demo {
     //val ss:RDD[Int] = sc.parallelize(List(1,2,3,4))
     val ss:RDD[String] = sc.textFile("input")
     ss.collect().foreach(println)
+    println("nihao")
 
   }
 
